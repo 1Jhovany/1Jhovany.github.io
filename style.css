@@ -89,6 +89,7 @@ section ul {
 #myProjects article{
     background: #ccc;
     padding: 1em;
+    width: 300px;
 }
 
 #myProjects article img {
