@@ -2,13 +2,10 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 1.618em;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 html {
     font-size: 16px;
-
     margin-top: 3em;
 }
 
@@ -41,11 +38,9 @@ nav {
     top: 0;
     right: 0;
     width: 100%;
-    
     display: flex;
     flex-flow: row;
     justify-content: center;
-
     background: #333;
 }
 
@@ -60,12 +55,12 @@ nav a:hover {
 }
 
 body{
+    background-image: url();
     color: #666;
 }
 
 section {
     margin: 1em 0;
-
     padding-top: 3em 0;
     min-height: 10em;
 } 
@@ -74,19 +69,22 @@ section > p {
     margin: 1em 0;
 }
 
+section > div > article > p {
+    padding: 1.5em;
+}
+
 section ul {
     padding-left: 2em;
 }
 
-#myProjects {
+#Projects {
     display: grid;
-    grid-template-columns: repeat (3, 1fr);
-    grid-template-rows: auto;
-
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto; 
     grid-column-gap: 1em;
 }
 
-#myProjects article{
+#Projects article{
     background: #ccc;
     padding: 1em;
     width: 300px;
@@ -98,7 +96,6 @@ section ul {
 
 footer {
     margin-top: 2em;
-    margin-bottom: 1em;
     background: #333;
     color: #fff;
     padding: 0.25em 0;
